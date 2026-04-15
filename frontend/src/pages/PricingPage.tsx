@@ -34,7 +34,7 @@ export default function PricingPage() {
             <p className="text-center text-violet-400 text-sm">현재 플랜</p>
           ) : (
             <a
-              href={`https://polar.sh/${POLAR_ORG_ID}/subscribe`}
+              href={`https://sandbox.polar.sh/${POLAR_ORG_ID}/subscribe`}
               className="block text-center bg-violet-600 text-white py-3 rounded-xl hover:bg-violet-700"
             >
               지금 구독하기 →
