@@ -9,7 +9,7 @@ from sqlalchemy.orm import Session
 from app.models.course import Course, Section
 from app.core.database import Base
 
-DATABASE_PATH = os.getenv("DATABASE_PATH", "../backend/data/deeplearn.db")
+DATABASE_PATH = os.getenv("DATABASE_PATH", "./data/deeplearn.db")
 engine = create_engine(f"sqlite:///{DATABASE_PATH}")
 Base.metadata.create_all(engine)
 
